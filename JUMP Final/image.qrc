@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Photo/background2.jpg</file>
+        <file>Photo/obj1.png</file>
+        <file>Photo/loser.gif</file>
+        <file>Photo/OK1.gif</file>
+        <file>Photo/obj2.png</file>
+        <file>Photo/background1.jpg</file>
+        <file>Photo/start.gif</file>
+        <file>Photo/chara2.png</file>
+        <file>Photo/chara3.png</file>
+        <file>Photo/chara4.png</file>
+        <file>Photo/chara5.png</file>
+        <file>Photo/chara6.png</file>
+        <file>Photo/character.png</file>
+        <file>Photo/button1.png</file>
+        <file>Photo/button2.png</file>
+        <file>Photo/obj3.png</file>
+        <file>Photo/instru.png</file>
+        <file>Photo/background4.gif</file>
+        <file>Photo/kun.gif</file>
+        <file>Photo/kun.jpg</file>
+    </qresource>
+    <qresource prefix="/n">
+        <file>Music/center.mp3</file>
+        <file>Music/defeat.mp3</file>
+        <file>Music/press.mp3</file>
+        <file>Music/start.mp3</file>
+        <file>Music/la.mp3</file>
+        <file>Music/himmel-Code-Paradiso.mp3</file>
+        <file>Music/niganma.mp3</file>
+        <file>Music/kun.mp3</file>
+    </qresource>
+</RCC>

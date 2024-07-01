@@ -1,0 +1,104 @@
+#ifndef WIDGET_H
+#define WIDGET_H
+
+#include <QWidget>
+#include<QTimer>
+#include<mythread.h>
+#include<QSequentialAnimationGroup>
+#include<QPropertyAnimation>
+#include"okwidget.h"
+#include"norwidget.h"
+#include<QMediaPlayer>
+#include<timerthread.h>
+QT_BEGIN_NAMESPACE
+namespace Ui { class Widget; }
+QT_END_NAMESPACE
+
+class Widget : public QWidget
+{
+    Q_OBJECT
+
+public:
+    Widget(QWidget *parent = nullptr);
+    ~Widget();
+signals:
+    void ti();
+
+private slots:
+    void on_startbon_pressed();
+    void on_startbon_released();
+    void on_changebutton_clicked();
+
+    void dealback();
+    void on_eazy_clicked();
+    void on_hard_clicked();
+    void on_insane_clicked();
+    void on_demon_clicked();
+
+    void dealdone();
+    void stopthread();
+    void dedone(int);
+    void done(int);
+    void on_Mainbutton_clicked();
+
+    void on_rebon_clicked();
+
+    void on_button_clicked();
+
+    void on_OKButton_clicked();
+
+    void on_OKButton2_clicked();
+
+    void on_readyBon_clicked();
+
+    void on_NorBon_clicked();
+
+    void on_DYButton_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_pushButton_4_clicked();
+
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_6_clicked();
+
+    void on_skinbon_clicked();
+
+    void on_opButton_clicked();
+
+    void on_pushButton_7_clicked();
+
+private:
+
+    Ui::Widget *ui;
+    Mythread *thread;
+    int num;
+    int ran;
+    int value;
+    int bgm=1;
+    int backchange=0;
+    timerthread*tithd;
+    QMediaPlayer *music1;
+    QMediaPlayer *musicst;
+    QMediaPlayer *musicde;
+    QMediaPlayer *musicce;
+    QMediaPlayer *musicback;
+    QMediaPlayer *musicla;
+    QMediaPlayer *musicji;
+    QMediaPlayer *musicku;
+    QSequentialAnimationGroup*angroup;
+    QPropertyAnimation *animation1;
+    QPropertyAnimation *animation2;
+    QPropertyAnimation *animation3;
+    QPropertyAnimation *animation4;
+    QPropertyAnimation *animation40;
+    QPropertyAnimation *animation41;
+
+
+};
+#endif // WIDGET_H
