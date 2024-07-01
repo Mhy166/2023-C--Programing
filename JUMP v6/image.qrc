@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Photo/main.jpg</file>
+        <file>Photo/character.png</file>
+        <file>Photo/background2.jpg</file>
+        <file>Photo/obj1.png</file>
+        <file>Photo/loser.gif</file>
+        <file>Photo/OK1.gif</file>
+        <file>Photo/obj2.png</file>
+        <file>Photo/background1.jpg</file>
+    </qresource>
+    <qresource prefix="/n">
+        <file>Music/Jump Back.mp3</file>
+    </qresource>
+</RCC>
